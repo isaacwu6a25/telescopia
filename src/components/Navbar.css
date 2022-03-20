@@ -1,8 +1,22 @@
-.nav {
+.container {
     width: 100%;
-    height:100px;
-    background-color: aqua;
-    color: blue;
-    padding: 0px;
-    border: 0px;
+    height:100%;
+}
+
+.container .Pages {
+    display: flex;
+    justify-content: flex-end;
+}
+
+.container .Home {
+    font-size: 27px;
+    float: left;
+}
+
+.container a{
+    color: rgb(235, 234, 224);
+    text-decoration: none;
+    margin-right: 50px;
+    margin-left: 50px;
+    font-size: 20px;
 }
