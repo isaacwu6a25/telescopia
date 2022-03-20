@@ -10,11 +10,11 @@ import Contact from './components/pages/Contact'
 function App() {
   return (
     <Router>
-      <div className="App">
-        <div className="Header">
+      <div className='App'>
+        <div className='App-header'>
           <Navbar />
         </div>
-        <div className="Content">
+        <div className='Content'>
           <Routes>
             <Route path="/" element={<Home />} />
             <Route path="/about-us" element={<About />} />
