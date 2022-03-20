@@ -17,11 +17,13 @@
 .container a{
     color: rgb(235, 234, 224);
     text-decoration: none;
-    margin-right: 50px;
-    margin-left: 50px;
+    /* margin-right: 50px;
+    margin-left: 50px; */
+    margin-left: 4em;
+    margin-right: 4em;
 }
 
 .container .Pages a:hover {
-    color:rgb(107, 131, 248);
+    color:rgb(140, 158, 250);
     transition: ease-in 0.1s;
 }
