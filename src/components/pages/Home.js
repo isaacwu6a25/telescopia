@@ -1,6 +1,13 @@
+import Hero from '../Hero';
+import Background from "../Background";
 
 function Home() {
-    return <h1>This is the home page</h1>;
+    return (
+		<div>
+            <Background />
+			<Hero />
+		</div>
+	);
 }
 
 export default Home;

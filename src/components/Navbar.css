@@ -6,6 +6,7 @@
 .container .Pages {
     display: flex;
     justify-content: flex-end;
+    font-size: 2.0vh;
 }
 
 .container .Home {
@@ -18,5 +19,9 @@
     text-decoration: none;
     margin-right: 50px;
     margin-left: 50px;
-    font-size: 1.8vh;
+}
+
+.container .Pages a:hover {
+    color:rgb(107, 131, 248);
+    transition: ease-in 0.1s;
 }
