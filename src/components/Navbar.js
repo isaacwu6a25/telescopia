@@ -5,6 +5,7 @@ function Navbar() {
         <div className='container'>
             <a className='Home' href={'/'}>TELESCOPIA</a>
             <nav className='Pages'>
+                <a href={'/'}>Home</a>
                 <a href={'/about-us'}>About Us</a>
                 <a href={'/gem-project'}>Projects</a>
                 <a href={'/contact-us'}>Contact Us</a>
