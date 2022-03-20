@@ -1,17 +1,19 @@
 import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
 import './App.css';
 
-import Home from './pages/Home'
-import About from './pages/About'
-import GEMProject from './pages/GEMProject'
-import Contact from './pages/Contact'
+import Navbar from './components/Navbar';
+import Home from './components/pages/Home'
+import About from './components/pages/About'
+import GEMProject from './components/pages/GEMProject'
+import Contact from './components/pages/Contact'
 
 function App() {
   return (
     <Router>
       <div className="App">
-        <h1>Hello world</h1>
-        <p>Every official website has a humble start huh</p>
+        <div className="Header">
+          <Navbar />
+        </div>
         <div className="Content">
           <Routes>
             <Route path="/" element={<Home />} />
