@@ -1,9 +1,12 @@
-import './Navbar.css'
+import './Navbar.css';
+import logo from './logo.png';
 
 function Navbar() {
     return (
         <div className='container'>
-            <a className='Home' href={'/'}>TELESCOPIA</a>
+            <a className='Logo' href={'/'}>
+                <img src={logo} alt='TELESCOPIA LOGO' />
+            </a>
             <nav className='Pages'>
                 <a href={'/'}>Home</a>
                 <a href={'/about-us'}>About Us</a>
