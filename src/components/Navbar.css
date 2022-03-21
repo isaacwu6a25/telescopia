@@ -19,7 +19,7 @@
 .container .Pages {
     display: flex;
     justify-content: flex-end;
-    font-size: 2.0vh;
+    font-size: 2.2vh;
 }
 
 .container .Pages a{
