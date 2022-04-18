@@ -1,0 +1,33 @@
+.description {
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.description .container{
+    height: 70vh;
+    width: 80vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    background: rgba(0.1, 0.1, 0.1, 0.3);
+    color: antiquewhite;
+    padding: 15px;
+    border-radius: 10px;
+
+}
+
+
+.description h1 {
+    font-size: 60px;
+    display: flex;
+    justify-content: center;
+}
+
+.description h2 {
+    margin-top: 10px;
+    font-size: 20px;
+}

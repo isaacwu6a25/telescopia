@@ -1,0 +1,29 @@
+.photoGallery {
+    height: 110vh;
+    width: 100vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background: #091621;
+    color: antiquewhite;
+}
+
+.photoGallery .gallery{
+    height: 65vh;
+    width: 90vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background: antiquewhite;
+}
+
+.photoGallery h1{
+    font-size: 80px;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    color:antiquewhite;
+    margin-bottom: 15px;
+}
