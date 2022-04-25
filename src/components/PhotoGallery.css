@@ -10,13 +10,20 @@
 }
 
 .photoGallery .gallery{
-    height: 65vh;
+    height: 75vh;
     width: 90vw;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
     background: antiquewhite;
+}
+
+.photoGallery .imageList{
+    width: 85vw;
+    height: calc(75vh - 5vw);
+    margin: 2.5vw;
+    margin-top: 2.5vw;
 }
 
 .photoGallery h1{

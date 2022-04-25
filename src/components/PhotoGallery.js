@@ -1,18 +1,16 @@
-import React, { Component } from 'react';
+import React, { Component, useState } from 'react';
 import "./PhotoGallery.css";
+import {QuiltedImageList} from "./Photos";
 
-class PhotoGallery extends Component {
-    state = {  } 
-    render() { 
-        return (
-            <div className='photoGallery'>
-                <h1>Photo Gallery</h1>
-                <div className='gallery'>
-
-                </div>
+function PhotoGallery() {
+    return (
+        <div className='photoGallery'>
+            <h1>Photo Gallery</h1>
+            <div className='gallery'>
+                <QuiltedImageList />
             </div>
-        );
-    }
+        </div>
+    );
 }
  
 export default PhotoGallery;
